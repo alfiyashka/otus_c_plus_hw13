@@ -4,7 +4,7 @@
 #include <istream>
 #include <string>
 
-#include <../src/classifier.h>
+#include "classifier.h"
 
 Eigen::MatrixXf read_mat_from_stream(size_t rows, size_t cols, std::istream& stream);
 
