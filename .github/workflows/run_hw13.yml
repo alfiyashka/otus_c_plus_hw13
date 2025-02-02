@@ -23,6 +23,7 @@ jobs:
     - run: sudo apt install libgtest-dev
     - run: cmake ${{github.workspace}}/hm13 -DCMAKE_BUILD_TYPE="Release" -DPATCH_VERSION=${{ github.run_number }} 
     - run: cmake --build .
+    - run: cmake --build . --target hw13_test
     - run: cmake --build . --target package    
           
     - name: Create Release
