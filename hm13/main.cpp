@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "../src/accuracyHelper.hpp"
+#include "src/accuracyHelper.hpp"
 
 using namespace std;
 
