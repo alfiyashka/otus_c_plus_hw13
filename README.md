@@ -1,6 +1,6 @@
 # otus_c_plus_hw13
 Homework 13 MLP
-Used multiperceptron
+Used Multilayer perceptron
 
 Used following command line:
 
