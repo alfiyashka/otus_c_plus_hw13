@@ -32,7 +32,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ SECRETS.GITHUB_TOKEN }}
       with:
-        tag_name: hw12_${{ github.run_number }}
+        tag_name: hw13_${{ github.run_number }}
         release_number: Release  ${{ github.run_number }}
         draft: false
         prerelease: false
@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v4 
       with:
         name: homework13
-        path: /home/runner/work/otus_c_plus_hw13/otus_c_plus_hw12/
+        path: /home/runner/work/otus_c_plus_hw13/otus_c_plus_hw13/
